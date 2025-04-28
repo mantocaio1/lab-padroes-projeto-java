@@ -2,7 +2,7 @@ package subsistema2.cep;
 
 public class CepApi {
 
-	private static CepApi instancia = new CepApi();
+	private static final CepApi instancia = new CepApi();
 
 	private CepApi() {
 		super();
